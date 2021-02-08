@@ -13,14 +13,12 @@ suite('Viewlets', () => {
 	class TestViewlet extends Viewlet {
 
 		constructor() {
-			super('id', null!, null!, null!, null!, null!, null!, null!, null!, null!);
+			super('id', null!, null!, null!, null!, null!, null!, null!, null!, null!, null!);
 		}
 
 		layout(dimension: any): void {
 			throw new Error('Method not implemented.');
 		}
-
-		createViewPaneContainer() { return null!; }
 	}
 
 	test('ViewletDescriptor API', function () {
